@@ -61,20 +61,6 @@ img {
     border-radius:5vmin;
     text-align: start;
 }
-@media screen and (max-width : 600px) {
-    .msg-container {
-        margin:25vmin;
-    }
-    .score-board{
-        margin : 15vmin;
-    }
-    #msg{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        line-height: 6vmin;
-    }
-}
 .header{
     display : grid;
     grid-template-columns: 1fr;
@@ -104,4 +90,21 @@ img {
 }
 #comp-choice {
     display : inline;
+}
+@media screen and (max-width : 600px) {
+    .msg-container {
+        margin:25vmin;
+    }
+    .score-board{
+        margin : 15vmin;
+    }
+    #msg{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 6vmin;
+    }
+    #computer {
+        flex-direction: column;
+    }
 }
