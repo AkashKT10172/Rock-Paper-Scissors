@@ -96,6 +96,7 @@ img {
 #computer {
     color : black;
     display : flex;
+    flex-wrap : wrap;
     margin: 5vmin;
     justify-content: center;
     align-items: center;
